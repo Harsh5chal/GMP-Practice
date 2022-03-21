@@ -1,27 +1,19 @@
 # AuthApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+User Authentication using Angular and JSON-Server
+# Home Page
 
-## Development server
+<img width="1552" alt="Screenshot 2022-03-12 at 11 24 29 AM" src="https://user-images.githubusercontent.com/75268993/158005976-b11082e5-54d7-4650-a406-54f78ce88de2.png">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Login Page
 
-## Code scaffolding
+<img width="1552" alt="Screenshot 2022-03-12 at 11 25 57 AM" src="https://user-images.githubusercontent.com/75268993/158005997-c231fd64-3046-4e56-bc65-4fda3130bdaa.png">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Register Page 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img width="1552" alt="Screenshot 2022-03-12 at 11 26 42 AM" src="https://user-images.githubusercontent.com/75268993/158006016-9628ad1b-2aec-433a-ada5-172831fb06c8.png">
 
-## Running unit tests
+# JSON SERVER
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img width="1552" alt="Screenshot 2022-03-12 at 11 27 37 AM" src="https://user-images.githubusercontent.com/75268993/158006038-f2de7ead-38a4-4ccf-8ef8-a81ed904386e.png">
