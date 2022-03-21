@@ -1,0 +1,23 @@
+.example-container {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: #0d6efd;
+    height: 100%;
+}
+
+.mat-sidenav, mat-nav-list{
+    width: 200px;
+    background-color:#0d6efd;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #ffffff;
+    height: 100%;
+}
+
+.mat-sidenav-container{
+    height: 100%;
+}
+.mat-sidenav-content{
+    background-color: aliceblue;
+    background-image: url(home-hero.png);
+}

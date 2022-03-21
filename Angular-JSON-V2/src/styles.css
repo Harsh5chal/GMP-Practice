@@ -1,0 +1,23 @@
+.form-signin {
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  /* margin-bottom: 30px; */
+  border-radius: 8px;  
+}
+
+.form-signin input[type="password"] {
+  /* margin-bottom: 30px; */
+  border-radius: 8px;  
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

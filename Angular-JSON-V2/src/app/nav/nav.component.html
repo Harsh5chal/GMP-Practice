@@ -1,0 +1,74 @@
+<mat-toolbar-row color="primary" class="navbar">
+  <button
+    mat-icon-button
+    (click)="sidenav.toggle()"
+    class="menu-button"
+    fxHide
+    fxShow.lt-md
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <th style="width: 70%"><a routerLink="/home" class="navbar-brand">Home</a></th>
+  <th>
+    <a
+      routerLink="/register"
+      class="nav-link"
+      style="
+        float: right;
+        background-color: rgb(230, 230, 230);
+        border-radius: 8px;
+      "
+      >Register</a
+    >
+  </th>
+  <th>
+    <a
+      routerLink="/login"
+      class="nav-link"
+      style="
+        background-color: rgb(230, 230, 230);
+        margin-right: 10px;
+        border-radius: 8px;
+      "
+      >Login</a
+    >
+  </th>
+</mat-toolbar-row>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side">
+    <mat-nav-list>
+      <mat-list-item role="listitem"
+        ><a routerLink="/home" class="nav-link text-white"> Home </a>
+      </mat-list-item>
+      <mat-list-item role="listitem"
+        ><a href="#" class="nav-link text-white"> Maps </a>
+      </mat-list-item>
+
+      <mat-list-item role="listitem"
+        ><a href="#" class="nav-link text-white"> Routes </a>
+      </mat-list-item>
+
+      <mat-list-item role="listitem"
+        ><a href="#" class="nav-link text-white"> Places </a>
+      </mat-list-item>
+
+      <mat-list-item role="listitem"
+        ><a [routerLink]="'/rest'" class="nav-link text-white"> REST API </a>
+      </mat-list-item>
+
+      <mat-list-item role="listitem"
+        ><a href="http://localhost:3000/user" class="nav-link text-white"> Account </a>
+      </mat-list-item>
+
+      
+    </mat-nav-list>
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+    <router-outlet>
+      <!-- <app-rest></app-rest>
+      <app-photos></app-photos> -->
+    </router-outlet>    
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,8 @@
+<div class="photo">
+    <h1>Album {{albumId}}</h1>
+    <div class="row">
+        <div class="col-md-3 photo" *ngFor="let photo of photos | async">
+            <img src="{{photo.url}}" class="img-fluid">
+        </div>
+    </div>
+</div>
